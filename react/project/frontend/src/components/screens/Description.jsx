@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import Navbar from "../utilities/Navbar";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Description = () => {
-  const { id } = useParams();              // Mongo _id from /description/:id
+  const { id } = useParams();
   const navigate = useNavigate();
 
   const [product, setProduct] = useState(null);
@@ -12,18 +12,15 @@ const Description = () => {
 
   const bgStyle = {
     backgroundImage:
-      "linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)), url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=1600&q=60')",
+      "linear-gradient(rgba(255,255,255,0.55), rgba(255,255,255,0.55)), url('https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1600&q=60')",
     backgroundSize: "cover",
     backgroundPosition: "center",
   };
 
-  // Fetch single product details from backend
   useEffect(() => {
     async function load() {
       try {
-        const res = await axios.get(
-          `http://localhost:5000/api/products/${id}`
-        );
+        const res = await axios.get(`http://localhost:5000/api/products/${id}`);
         setProduct(res.data);
       } catch (err) {
         console.error(err);
@@ -57,9 +54,8 @@ const Description = () => {
       <Navbar />
       <div className="max-w-3xl mx-auto py-12 px-4">
         <div className="bg-white/80 backdrop-blur rounded-lg shadow p-6">
-          <h2 className="text-2xl font-bold text-red-700 mb-4">
-            {product.title}
-          </h2>
+
+          <h2 className="text-2xl font-bold text-red-700 mb-4">{product.title}</h2>
 
           <div className="text-sm text-gray-700 mb-4">
             <strong>Category:</strong> {product.category}
@@ -77,11 +73,18 @@ const Description = () => {
           <div className="mt-6 flex gap-3">
             <button
               onClick={() => navigate(-1)}
-              className="px-4 py-2 border rounded"
+              className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition"
             >
               Back
             </button>
+            <button
+              onClick={() => navigate("/products")}
+              className="px-4 py-2 border border-red-400 text-red-600 rounded hover:bg-red-50 transition"
+            >
+              All Products
+            </button>
           </div>
+
         </div>
       </div>
     </div>
@@ -89,11 +92,3 @@ const Description = () => {
 };
 
 export default Description;
-
-
-
-
-
-
-
-

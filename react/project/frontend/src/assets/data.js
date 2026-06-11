@@ -1,294 +1,300 @@
 export const products = [
   {
-    id: 1,
-    title: 'Maxofeed Bolus',
-    image: '/Screenshot 2025-10-31 105822.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Maxofeed Bolus",
+    image: "/maxofeed.jpeg",
+    mrp: "₹ 131",
+    packSize: "8 Bolus Strip",
+    category: "Animal Feed Supplement",
     description: [
-      'Stimulates Appetite',
-      'Improves Liver Functions',
-      'Increases the population of useful Micro Flora',
-      'Balances PH of Rumen'
+      "Stimulates Appetite",
+      "Improves Liver Functions",
+      "Increases the population of useful Micro Flora",
+      "Balances PH of Rumen"
     ]
   },
   {
-    id: 2,
-    title: 'Maxofeed Injection',
-    image: '/Screenshot 2025-10-31 105822.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Maxofeed Injection",
+    image: "/maxofeed inj.jpeg",
+    mrp: "₹ 140",
+    packSize: "100 ml",
+    category: "Medicine",
     description: [
-      'Stimulates Appetite',
-      'Improves Liver Functions',
-      'Increases the population of useful Micro Flora',
-      'Balances PH of Rumen'
+      "Stimulates Appetite",
+      "Improves Liver Functions",
+      "Increases the population of useful Micro Flora",
+      "Balances PH of Rumen"
     ]
   },
   {
-    id: 3,
-    title: 'Lacgain',
-    image: '/Screenshot 2025-10-31 105834.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Lacgain",
+    image: "/lacgain.jpeg",
+    mrp: "₹ 142",
+    packSize: "100 Tablets",
+    category: "Animal Feed Supplement",
     description: [
-      'Improves the secretory activity of alveolar tissue',
-      'Natural substitute of Oxytocin',
-      'Restores normal lactation',
-      'Increases milk production & fat %',
-      'Prolongs the period of lactation',
-      'Highly effective and non hormonal'
+      "Improves the secretory activity of alveolar tissue",
+      "Natural substitute of Oxytocin",
+      "Restores normal lactation",
+      "Increases milk production & fat %",
+      "Prolongs the period of lactation",
+      "Highly effective and non hormonal"
     ]
   },
   {
-    id: 4,
-    title: 'Thanmast Powder',
-    image: '/Screenshot 2025-10-31 105846.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Lacgain",
+    image: "/lacgain.jpeg",
+    mrp: "₹ 271",
+    packSize: "200 Tablets",
+    category: "Animal Feed Supplement",
     description: [
-      'Restores normal milk PH',
-      'Helps in faster restoration of milk yield',
-      'Minimizes the use of antibiotics',
-      'Enhances cellular antioxidant',
-      'Increases mammory defence mechanism',
-      'Better recovery',
-      'Minimizes the chances of relapse'
+      "Improves the secretory activity of alveolar tissue",
+      "Natural substitute of Oxytocin",
+      "Restores normal lactation",
+      "Increases milk production & fat %",
+      "Prolongs the period of lactation",
+      "Highly effective and non hormonal"
     ]
   },
   {
-    id: 5,
-    title: 'VCUTONE',
-    image: '/Screenshot 2025-10-31 105855.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Thanmast Powder",
+    image: "/thanmast powder.jpeg",
+    mrp: "₹ ",
+    packSize: "4*50 gm",
+    category: "Animal Feed Supplement",
     description: [
-      'Helps in easy expulsion of Placenta',
-      'Helps in preventing Uterine Infections',
-      'Improves Conception Rate',
-      'For timely involution of uterus for next cycle',
-      'Ensures optimum milk production'
+      "Restores normal milk PH",
+      "Helps in faster restoration of milk yield",
+      "Minimizes the use of antibiotics",
+      "Enhances cellular antioxidant",
+      "Increases mammory defence mechanism",
+      "Better recovery",
+      "Minimizes the chances of relapse"
     ]
   },
   {
-    id: 6,
-    title: 'Puralvit',
-    image: '/Screenshot 2025-10-31 105907.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCUTONE",
+    image: "/vcutone.jpeg",
+    mrp: "₹ 470",
+    packSize: "2 l",
+    category: "Animal Feed Supplement",
     description: [
-      'MULTIVITAMIN LIQUID FOR NORMAL GROWTH & DEVELOPMENT'
+      "Helps in easy expulsion of Placenta",
+      "Helps in preventing Uterine Infections",
+      "Improves Conception Rate",
+      "For timely involution of uterus for next cycle",
+      "Ensures optimum milk production"
     ]
   },
   {
-    id: 7,
-    title: 'VC Zyme Powder',
-    image: '/Screenshot 2025-10-31 105923.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Puralvit",
+    image: "/puralvit.jpeg",
+    mrp: "₹ 1368",
+    packSize: "1 l",
+    category: "Animal Feed Supplement",
     description: [
-      'Optimizes Rumen Ph',
-      'Prevents Bloat',
-      'Optimizes Rumen & Liver Function',
-      'Improves digestion',
-      'Prevents and corrects Ruminal Acidiosis',
-      'Helps to improve milk production'
+      "MULTIVITAMIN LIQUID FOR NORMAL GROWTH & DEVELOPMENT"
     ]
   },
   {
-    id: 8,
-    title: 'VC MIN Fe LIQUID',
-    image: '/Screenshot 2025-10-31 105933.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCZyme Powder",
+    image: "/VC Zyme powder.jpeg",
+    mrp: "₹ 120",
+    packSize: "120 gm",
+    category: "Animal Feed Supplement",
     description: [
-      'Stimulates the Production of Red Blood Cells',
-      'Increases the Amount of Hemoglobin in the Blood',
-      'To Improve milk Production & Fat %',
-      'For Better Growth',
-      'To Debilitated Animals'
+      "Optimizes Rumen Ph",
+      "Prevents Bloat",
+      "Optimizes Rumen & Liver Function",
+      "Improves digestion",
+      "Prevents and corrects Ruminal Acidiosis",
+      "Helps to improve milk production"
     ]
   },
   {
-    id: 9,
-    title: 'VCMIN BOLUS',
-    image: '/Screenshot 2025-10-31 105943.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCMIN Fe LIQUID",
+    image: "/vc min fe.jpeg",
+    mrp: "₹ 380",
+    packSize: "1 l",
+    category: "Animal Feed Supplement",
     description: [
-      'Useful in Fertilization, Ovulation, Implantation, Embryo survivability & Overall health & Immunity'
+      "Stimulates the Production of Red Blood Cells",
+      "Increases the Amount of Hemoglobin in the Blood",
+      "To Improve milk Production & Fat %",
+      "For Better Growth",
+      "To Debilitated Animals"
     ]
   },
   {
-    id: 10,
-    title: 'VC MIN Forte Chelated',
-    image: '/Screenshot 2025-10-31 105952.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCMIN Fe LIQUID",
+    image: "/vc min fe.jpeg",
+    mrp: "₹ 270",
+    packSize: "500 ml",
+    category: "Animal Feed Supplement",
     description: [
-      'Improves fertility',
-      'Improves milk and Fat %',
-      'Prevents mineral and vitamin deficiency diseases',
-      'Reduces the risk of mastitis by decreasing somatic cell count (SSC)',
-      'Prevents fetal abnormality',
-      'Maintains overall health and immunity'
+      "Stimulates the Production of Red Blood Cells",
+      "Increases the Amount of Hemoglobin in the Blood",
+      "To Improve milk Production & Fat %",
+      "For Better Growth",
+      "To Debilitated Animals"
     ]
   },
   {
-    id: 11,
-    title: 'LACTODYNE Gel',
-    image: '/Screenshot 2025-10-31 110001.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCMIN BOLUS",
+    image: "/vc min bolus.jpeg",
+    mrp: "₹ 270",
+    packSize: "10 Bolus Box",
+    category: "Animal Feed Supplement",
     description: [
-      'PREVENTS AND TREATS MILK FEVER',
-      'SKELETON & GENERAL GROWTH',
-      'PRE AND POST PARTURATION',
-      'SUB NORMAL TEMPERATURE'
+      "Useful in Fertilization, Ovulation, Implantation, Embryo survivability & Overall health & Immunity"
     ]
   },
   {
-    id: 12,
-    title: 'LACTODYNE Gold Chelated',
-    image: '/Screenshot 2025-10-31 110011.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "LACTODYNE Gold Chelated",
+    image: "/Lactodyne gold.jpeg",
+    mrp: "₹ 1100",
+    packSize: "5 l",
+    category: "Animal Feed Supplement",
     description: [
-      'Increases milk yield in cattle',
-      'Builds strong bones in growing animal',
-      'Acts as a growth promoter',
-      'Maintains the health of animals'
+      "Increases milk yield in cattle",
+      "Builds strong bones in growing animal",
+      "Acts as a growth promoter",
+      "Maintains the health of animals"
     ]
   },
   {
-    id: 13,
-    title: 'VC PREG-750',
-    image: '/Screenshot 2025-10-31 105501.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCPREG-750",
+    image: "/vc preg.jpeg",
+    mrp: "₹ 171",
+    packSize: "3 ml",
+    category: "Medicine",
     description: [
-      'Prepares uterus for implantation',
-      'Necessary for formation of placenta',
-      'Maintains pregnancy by retaining embryo in uterus',
-      'Suppresses uterine motality during pregnancy'
+      "Prepares uterus for implantation",
+      "Necessary for formation of placenta",
+      "Maintains pregnancy by retaining embryo in uterus",
+      "Suppresses uterine motality during pregnancy"
     ]
   },
   {
-    id: 14,
-    title: 'VCSPAS Bolus',
-    image: '/Screenshot 2025-10-31 105631.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
-    description: ['Useful in Relief of Intestinal Colic & Abdominal Pain']
-  },
-  {
-    id: 15,
-    title: 'VCSPAS Injection',
-    image: '/Screenshot 2025-10-31 105631.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
-    description: ['Reduces Contraction of the Muscles in the Intestines']
-  },
-  {
-    id: 16,
-    title: 'Vecromol Inj.',
-    image: '/Screenshot 2025-10-31 105648.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCSPAS Bolus",
+    image: "/vc spas bolus.jpeg",
+    mrp: "₹ 80",
+    packSize: "4 Bolus Strip",
+    category: "Medicine",
     description: [
-      'A Safe & Effective Treatment to Control Inflammation, Pain & Fever'
+      "Useful in Relief of Intestinal Colic & Abdominal Pain"
     ]
   },
   {
-    id: 17,
-    title: 'Vecromol Bolus',
-    image: '/Screenshot 2025-10-31 105648.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "VCSPAS Injection",
+    image: "/vc spas inj.jpeg",
+    mrp: "₹ 176",
+    packSize: "100 ml",
+    category: "Medicine",
     description: [
-      'A Safe & Effective Treatment to Control Inflammation, Pain & Fever'
+      "Reduces Contraction of the Muscles in the Intestines"
     ]
   },
   {
-    id: 18,
-    title: 'Vecromol-PR',
-    image: '/Screenshot 2025-10-31 105705.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Vecromol Inj.",
+    image: "/vecromol inj.jpeg",
+    mrp: "₹ 196",
+    packSize: "100 ml",
+    category: "Medicine",
     description: [
-      'Used to treat pain and help relieve symptoms of arthritis'
+      "A Safe & Effective Treatment to Control Inflammation, Pain & Fever"
     ]
   },
   {
-    id: 19,
-    title: 'LYFONVET',
-    image: '/Screenshot 2025-10-31 105717.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "Vecromol Plus Bolus",
+    image: "/vecromol plus.jpeg",
+    mrp: "₹ 90",
+    packSize: "4 Bolus Strip",
+    category: "Medicine",
     description: [
-      'IIIrd Generation Cepholosporine Antibiotic covers the wide range of Bacterial Infections'
+      "A Safe & Effective Treatment to Control Inflammation, Pain & Fever"
     ]
   },
   {
-    id: 20,
-    title: 'LYFONVET AC Forte',
-    image: '/Screenshot 2025-10-31 105729.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
-    description: ['Widely used in bacterial infections']
-  },
-  {
-    id: 21,
-    title: 'HITLURG Inj.',
-    image: '/Screenshot 2025-10-31 105742.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "LYFONVET",
+    image: "/lyfonvet bolus.jpeg",
+    mrp: "₹ 168",
+    packSize: "3 gm",
+    category: "Medicine",
     description: [
-      'Used during treatment of infections, itching of unknown origin, bloating, insect bites & allergy'
+      "IIIrd Generation Cepholosporine Antibiotic covers the wide range of Bacterial Infections"
     ]
   },
   {
-    id: 22,
-    title: 'Vecocip-TZ Bolus',
-    image: '/Screenshot 2025-10-31 105757.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
+    title: "LYFONVET",
+    image: "/lyfonvet bolus.jpeg",
+    mrp: "₹ 205",
+    packSize: "4 gm",
+    category: "Medicine",
     description: [
-      'Diarrhoea & Dysentery',
-      'Chronic wounds & deep seated wounds',
-      'Post operative infection',
-      'Uterine infections & Genital Infections-Metritis, Endometritis, Pyometra'
+      "IIIrd Generation Cepholosporine Antibiotic covers the wide range of Bacterial Infections"
     ]
   },
   {
-    id: 23,
-    title: 'SOLINOX-DS',
-    image: '/Screenshot 2025-10-31 105812.png',
-    price: '',
-    rating: '',
-    category: 'Animal Feed Supplement',
-    description: ['TO save animals by killing Worms and Flukes']
+    title: "LYFONVET AC Forte",
+    image: "/lyfonvet ac forte.jpeg",
+    mrp: "₹ 318",
+    packSize: "4.5 gm",
+    category: "Medicine",
+    description: [
+      "Widely used in bacterial infections"
+    ]
+  },
+  {
+    title: "LyfonVet Inj.",
+    image: "/lyfonvet inj.jpeg",
+    mrp: "₹ 168",
+    packSize: "3 gm",
+    category: "Medicine",
+    description: [
+      "IIIrd Generation Cepholosporine Antibiotic covers the wide range of Bacterial Infections"
+    ]
+  },
+  {
+    title: "LyfonVet Inj.",
+    image: "/lyfonvet inj.jpeg",
+    mrp: "₹ 205",
+    packSize: "4 gm",
+    category: "Medicine",
+    description: [
+      "IIIrd Generation Cepholosporine Antibiotic covers the wide range of Bacterial Infections"
+    ]
+  },
+  {
+    title: "HITLURG Inj.",
+    image: "/hitlurg.jpeg",
+    mrp: "₹ 50",
+    packSize: "100 ml",
+    category: "Medicine",
+    description: [
+      "Used during treatment of infections, itching of unknown origin, bloating, insect bites & allergy"
+    ]
+  },
+  {
+    title: "Vecocip-TZ Bolus",
+    image: "/vecozip.jpeg",
+    mrp: "₹ 145",
+    packSize: "4 Bolus Strip",
+    category: "Medicine",
+    description: [
+      "Diarrhoea & Dysentery",
+      "Chronic wounds & deep seated wounds",
+      "Post operative infection",
+      "Uterine infections & Genital Infections-Metritis, Endometritis, Pyometra"
+    ]
+  },
+  {
+    title: "SOLINOX-DS",
+    image: "/solinox ds.jpeg",
+    mrp: "₹ 154",
+    packSize: "100 ml",
+    category: "Medicine",
+    description: [
+      "To save animals by killing Worms and Flukes"
+    ]
   }
 ];
