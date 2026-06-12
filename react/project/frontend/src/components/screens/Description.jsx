@@ -6,7 +6,7 @@ import axios from "axios";
 const Description = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -20,7 +20,7 @@ const Description = () => {
   useEffect(() => {
     async function load() {
       try {
-        const res = await axios.get(`http://localhost:5000/api/products/${id}`);
+       const res = await axios.get(`${API_URL}/api/products/${id}`);
         setProduct(res.data);
       } catch (err) {
         console.error(err);
