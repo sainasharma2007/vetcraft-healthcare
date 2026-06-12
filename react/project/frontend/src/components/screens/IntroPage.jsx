@@ -97,7 +97,7 @@ const IntroPage = () => {
           {[
             { number: `${count.products}+`, label: "Products" },
             { number: `${count.quality}%`, label: "Quality Assured" },
-            { number: `${count.categories}+`, label: "Categories" },
+            { number: `${count.categories}`, label: "Categories" },
             { number: "∞", label: "Animal Care" },
           ].map((item, i) => (
             <div key={i} style={s.statBox}>
